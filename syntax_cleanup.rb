@@ -3,13 +3,13 @@ foods = {
   "apples": 23,
   "grapes": 507,
   "eggs": 48
-}
+  }
 
 
 person = {
    "height" => "6 ft",
    "weight" => "160 lbs"
- }
+  }
 
 post = {
    image_src: "./images/beach.png",
@@ -17,7 +17,7 @@ post = {
    timestamp: "4:37 PM August 13, 2019",
    number_likes: 0,
    comments: []
-}
+ }
 
 post2 ={
       image_src: "./images/holiday-party.png",
@@ -25,4 +25,4 @@ post2 ={
       timestamp: "11:37 PM December 31, 2019",
       number_likes: 13,
       comments: []
-}
+  }
