@@ -39,8 +39,9 @@ birthdays.each do |bday_person, birthdate|
     "Amos" => true,
     "Jeff" => true
   }
-
+# asdfasdf
 login_statuses.each do |username, login_status|
   if [login_status] == true
     puts "#{username}"
   end
+end
