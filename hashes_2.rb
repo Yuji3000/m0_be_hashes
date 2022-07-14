@@ -11,6 +11,9 @@ states = {
 #
 #
 #
+states.each do |state, initial|
+  puts "I really love visiting #{state}, #{initial}!"
+end
 
 
 # ======================================
@@ -24,22 +27,20 @@ birthdays = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
-#
-#
+birthdays.each do |bday_person, birthdate|
+  puts "I remember that #{bday_person}'s brithday is on #{birthdate}."
+  end
+  # ======================================
+  # 3- Using the following Hash
 
+  login_statuses = {
+    "Cindy" => true,
+    "Rigo" => false,
+    "Amos" => true,
+    "Jeff" => true
+  }
 
-# ======================================
-# 3- Using the following Hash
-
-login_statuses = {
-  "Cindy" => true,
-  "Rigo" => false,
-  "Amos" => true,
-  "Jeff" => true
-}
-
-# Use the each method to iterate through it and print ONLY the names of friends who are "logged in"
-#
-#
-#
+login_statuses.each do |username, login_status|
+  if [login_status] == true
+    puts "#{username}"
+  end
